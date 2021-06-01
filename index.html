@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquette responsive</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<header class="header">
+    <div id="reseaux">
+    <img src ="assets/20.png">
+    <img src ="assets/29.jpg.png">
+    </div>
+</header>
+
+
+    <nav>
+        <div class="container-nav">
+            <a href="#" class="logo">
+                <source
+                media="(min-width: 1280px)"
+                sizes="50%"
+                srcset="18.png 200px,
+                    18.png 400px,
+                    18.png 800px,
+                    18.png 1200px,
+                    18.png 1600px,
+                    18.png 2000px"
+                type="image/png">
+
+                <source
+                sizes="(min-width: 640px) 60%, 100%"
+                srcset="18.png 200px,
+                    18.png 400px,
+                    18.png 800px,
+                    18.png 1200px,
+                    18.png 1600px,
+                    18.png 2000px">
+                <img
+                src ="assets/18.png" alt="logo"
+                sizes="(min-width: 640px) 60%, 100%"
+                srcset="18.png 200px,
+                    18.png 400px,
+                    18.png 800px,
+                    18.png 1200px,
+                    18.png 1600px,
+                    18.png 2000px"></a>
+
+        <label for="mobile" class="top-nav-label" id="submenu-toggle-label">Afficher/Cacher le menu</label>
+        <input type="checkbox" id="mobile" role="button">
+            <ul>
+                <li class="deroulant"><a href="#Home" class="active">Home</a></li>
+                <li class="deroulant"><a href="#Book" >Book &#8744;</a></li>
+                <li class="deroulant"><a href="#Destinations" >Destinations &#8744;</a>
+                    <ul class="sous">
+                        <li><a href="#">France</a></li>
+                        <li><a href="#">Brazil</a></li>
+                        <li><a href="#">Algeria</a></li>
+                    </ul>
+                </li>
+                <li class="deroulant"><a href="#Prices" >Prices</a></li>
+                <li class="deroulant"><a href="#Alerts" >Alerts</a></li>
+                <li class="deroulant"><a href="#Contact" >Contact</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+<div class="container">
+    <div id="slider">
+            <figure>
+            <img    src="assets/6.jpg"
+                    sizes="100%"
+                    srcset="6.jpg 200px,
+                            6.jpg 400px,
+                            6.jpg 800px,
+                            6.jpg 1200px"/>
+            <img src="assets/8.jpg" />
+            <img src="assets/10.jpg"/>
+            <img src="assets/11.jpg"/>
+            <img src="assets/6.jpg" />
+            </figure>
+        <a class="slid-select" href="#"></a>
+    </div>
+</div>
+
+<div id="details">
+    <div class="campfire">
+        <div class="titre"><img src="assets/13.png" height="90" width="auto">
+        <h3>Safe, structures and amazing application</h3>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.</p>
+        <div class="more_info">more info</div>
+    </div>
+
+    <div class="teepee">
+        <div class="titre"><img src="assets/17.png" height="90" width="auto">
+        <h3>The sun is shining today, book your trip</h3>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.</p>
+        <div class="more_info">more info</div>
+    </div>
+
+    <div class="paws">
+        <div class="titre">
+            <img src="assets/12.png" height="90" width="auto">
+        <h3 class="background">Meet new people and live more intensely</h3>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.</p>
+        <div class="more_info">more info</div>
+    </div>
+</div>
+<h3 class="destinations">Destinations</h3>
+<div class="flag">
+    <img src="assets/3.jpg" height="auto" width="250" class="france">
+    <img src="assets/4.jpg" height="auto" width="250" class="bresil">
+    <img src="assets/5.jpg" height="auto" width="250" class="algerie">
+</div>
+
+<div class="us">
+    <div class="about">
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Orci a scelerisque purus semper eget duis at tellus.
+            Vitae nunc sed velit dignissim sodales ut eu sem integer.
+            Dignissim convallis aenean et tortor at risus viverra
+            adipiscing at. Auctor urna nunc id cursus metus aliquam.
+            Ipsum dolor sit amet consectetur. Curabitur gravida arcu
+            ac tortor dignissim convallis aenean et tortor.
+            Interdum posuere lorem ipsum dolor sit amet consectetur
+            adipiscing. Justo laoreet sit amet cursus sit. Feugiat
+            nibh sed pulvinar proin gravida.</p><br>
+
+        <p>Morbi tempus iaculis urna id volutpat lacus laoreet non.
+            Nisi porta lorem mollis aliquam ut porttitor leo. Lacus
+            luctus accumsan tortor posuere. Eu ultrices vitae auctor
+            eu augue ut. Orci phasellus egestas tellus rutrum tellus
+            pellentesque eu tincidunt. Integer vitae justo eget magna.
+            Nulla facilisi etiam dignissim diam. Ullamcorper morbi
+            tincidunt ornare massa. Bibendum neque egestas congue
+            quisque egestas diam in. Nec feugiat nisl pretium fusce id
+            velit.</p><br>
+    </div>
+
+    <div class="why">
+        <h3>Why Us</h3>
+        <img src="assets/14.png" width="-30%" height="auto">
+        <p>elementum eu facilisis sed odio morbi quis commodo odio
+            aenean sed adipiscing diam donec adipiscing tristique risus
+            nec feugiat in fermentum posuere urna nec</p>
+        <img src=assets/15.png width="-30%" height="auto">
+        <p>elementum eu facilisis sed odio morbi quis commodo odio
+            aenean sed adipiscing diam donec adipiscing tristique risus
+            nec feugiat in fermentum posuere urna nec</p>
+        <img src="assets/16.png" width="-30%" height="auto">
+        <p>at elementum eu facilisis sed odio morbi quis commodo odio
+            aenean sed adipiscing diam donec adipiscing tristique risus
+            nec feugiat in fermentum posuere urna nec</p>
+    </div>
+    <div class="travel">
+        <h3>How to travel ?</h3>
+        <p>adipiscing elit pellentesque habitant morbi tristique senectus et netus et malesuada
+            fames ac turpis egestas integer eget aliquet nibh praesent tristique magna sit amet
+            purus gravida quis blandit turpis</p><br>
+            <button class="subcribe" type="button" id="btn">Subscribe</button>
+    </div>
+</div>
+
+<footer>
+    <div class="footer">
+        <ul id="footer-links">
+            <li><a href="#Home" class="active">Home</a></li>
+            <li><a href="#Book" >Book</a></li>
+            <li><a href="#Destinations" >Destinations</a></li>
+            <li><a href="#Prices" >Prices</a></li>
+            <li><a href="#Alerts" >Alerts</a></li>
+            <li><a href="#Contact" >Contact</a></li>
+        </ul>
+        <div class="copyright">© There is no birds here Look around.</div>
+    </div>
+</footer>
+
+
+
+<!-- <section id="slideshow">
+<div class="container-img">
+    <div class="c_slider"></div>
+    <div id="slider">
+        <figure>
+            <img src="assets/6.jpg">
+            <figcaption>Tips to travail around the world !</figcaption>
+        </figure>
+
+        <figure>
+            <img src="assets/7.jpg">
+        </figure>
+
+        <figure>
+            <img src="assets/8.jpg">
+        </figure>
+
+        <figure>
+            <img src="assets/9.jpg">
+        </figure>
+
+        <figure>
+            <img src="assets/10.jpg">
+        </figure>
+
+        <figure>
+            <img src="assets/11.jpg">
+        </figure>
+    </div>
+</div>
+
+<span id="timeline"></span>
+</section>-->
+
+
+<script>
+
+
+</script>
+</body>
+</html>
